@@ -1,4 +1,4 @@
-import { useAppContext } from '../../context/context';
+import { useAppContext } from "../context/context";
 import { GiShoppingCart } from "react-icons/gi";
 import './CartWidget.css';
 

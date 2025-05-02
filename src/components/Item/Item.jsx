@@ -1,5 +1,5 @@
 import { Link } from 'react-router';
-import { useAppContext } from '../../context/context';
+import { useAppContext } from '../context/context';
 import './Item.css';
 
 

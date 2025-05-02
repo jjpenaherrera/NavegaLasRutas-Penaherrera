@@ -3,7 +3,7 @@ import './App.css';
 import ItemListContainer from './components/ItemListContainer/ItemlistContainer';
 import Navbar from './components/Navbar/Navbar';
 import ItemDetail from './components/ItemDetail/ItemDetail';
-import { ContextProvider } from './context/context';
+import { ContextProvider } from './components/context/context';
 import { ToastContainer } from 'react-toastify';
 
 

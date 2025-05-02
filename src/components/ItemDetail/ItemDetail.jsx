@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router';
-import { useAppContext } from '../../context/context';
+import { useAppContext } from '../context/context';
 import { fetchData } from '../../../fetchData';
 import ItemCount from '../ItemCount/ItemCount';
 import Loader from '../Loader/Loader';
