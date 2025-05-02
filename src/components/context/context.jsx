@@ -1,11 +1,11 @@
 import { createContext, useContext, useState } from "react";
 import { toast } from "react-toastify";
 
-const AppContext = createContext(); 
+const AppContext = createContext();
 
-export const useAppContext = () => useContext(AppContext); 
+export const useAppContext = () => useContext(AppContext);
 
-export const ContextProvider = (props) => { 
+export const ContextProvider = (props) => {
 
     const [carrito, setCarrito] = useState([]);
 

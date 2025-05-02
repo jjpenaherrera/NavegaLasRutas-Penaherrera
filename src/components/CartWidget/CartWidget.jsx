@@ -8,7 +8,7 @@ function CartWidget() {
 
     return (
         <>
-            <GiShoppingCart color="blue"/>
+            <GiShoppingCart color="blue" />
             <p>{carrito.length}</p>
         </>
 
