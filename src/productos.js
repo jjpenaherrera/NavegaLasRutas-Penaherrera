@@ -21,7 +21,7 @@ export const productos = [
         id: 3,
         nombre: "Sofa",
         precio: 120,
-        categoria: "mueble",
+        categoria: "muebles",
         stock: 20,
         descripcion: "Sofa de 3 puestos",
         img: "",

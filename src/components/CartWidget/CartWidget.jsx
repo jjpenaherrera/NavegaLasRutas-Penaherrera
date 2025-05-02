@@ -1,11 +1,15 @@
-import './CartWidget.css'
+import { useAppContext } from '../../context/context';
 import { GiShoppingCart } from "react-icons/gi";
+import './CartWidget.css';
 
-function CartWidget({ cantidad }) {
+function CartWidget() {
+
+    const { carrito } = useAppContext();
+
     return (
         <>
-            <GiShoppingCart />
-            <p>{cantidad}</p>
+            <GiShoppingCart color="blue"/>
+            <p>{carrito.length}</p>
         </>
 
     );
